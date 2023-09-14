@@ -24,7 +24,7 @@ class BmiCalculator
                 bmi=(w/(h*h*(h*0.5)))*1.3;
                 break;
             default:
-                System.out.println("Entered value is not valid!!! Please try again later");
+                System.out.println("Given value is not valid!!! Please try again later");
                 break;
         }
         if(n==1)
